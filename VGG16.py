@@ -21,8 +21,8 @@ from keras.preprocessing.image import ImageDataGenerator
 import tensorflow as tf
 sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 
-sat=r'C:\'
-building=r'C:\'
+sat=r'your dir'
+building=r'your dir'
 
 rootDir = sat
 i=0;
