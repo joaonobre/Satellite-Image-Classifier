@@ -2,7 +2,7 @@
 
 Script to identify satellite images that contain buildings using VGG-16.
 
-The model receives as input the satellite images and the corresponding identification of wether or not it contains a building, in order to be trained.
+The model receives as input the satellite images and the corresponding building layer that is used to create an identification vector of wether or not the image contains a building.
 For each image in the test set, a classification is made by identifying if it contains a building or not.
 
 ## Training
