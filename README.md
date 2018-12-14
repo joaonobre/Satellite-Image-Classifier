@@ -1,6 +1,6 @@
 # Satellite Image Classifier
 
-Script to identify satellite images that contain buildings using VGG-16 CNN.
+Script to identify satellite images that contain buildings using VGG-16.
 
 The model receives as input the satellite images and the corresponding identification of wether or not it contains a building, in order to be trained.
 For each image in the test set, a classification is made by identifying if it contains a building or not.
